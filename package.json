@@ -12,6 +12,7 @@
     "@babel/preset-env": "^7.1.6",
     "@expo/vector-icons": "^13.0.0",
     "@expo/webpack-config": "^0.17.0",
+    "@manu_omg/react-native-emoji-selector": "^1.0.3",
     "@react-navigation/bottom-tabs": "^6.4.0",
     "@react-navigation/native": "^6.0.13",
     "expo": "~46.0.13",
