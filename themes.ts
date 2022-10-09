@@ -86,5 +86,16 @@ export default {
 		accent2: ['#ffa94d', '#ffa94d'], // Accent 2: Text
 		accent3: ['#d9480f', '#ffa94d', '#f8f9fa', '#faa2c1', '#c2255c'], // Accent 3: Button border gradient (Usually should be the same as accent1)
 		accent4: ['#d9480f', '#ffa94d', '#f8f9fa', '#faa2c1', '#c2255c'], // Accent 4: Shortened gradient
+	},
+	"prami": {
+		name: "Prami",
+		key: "prami",
+		activeColor: '#f06595',
+		inactiveColor: '#adb5bd',
+		accent0: ['#f06595', '#f06595'], // Accent 0: Gradient
+		accent1: ['#f06595', '#f06595'], // Accent 1: Buttons
+		accent2: ['#f06595', '#f06595'], // Accent 2: Text
+		accent3: ['#f06595', '#f06595'], // Accent 3: Button border gradient (Usually should be the same as accent1)
+		accent4: ['#f06595', '#f06595'], // Accent 4: Shortened gradient
 	}
 }

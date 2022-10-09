@@ -271,9 +271,9 @@ const SigninScreen = () => {
 	let [getKey, setKey, getAddresses, setAddresses, theme, setTheme] = React.useContext(MainContext);
 	const [request, response, promptAsync] = useAuthRequest(
 		{
-			clientId: 'addea4ef423ef2cf51cefb4d824a3356', //'154bb96b527b61aae33a56ca8965d1c3',
+			clientId: '154bb96b527b61aae33a56ca8965d1c3', // 'addea4ef423ef2cf51cefb4d824a3356',
 			scopes: ['everything'],
-			redirectUri: makeRedirectUri({ path: "/callback"}),//makeRedirectUri({ path: "/oauthredirect"}),
+			redirectUri: makeRedirectUri({ path: "oauthredirect"}), //makeRedirectUri({ path: "/callback"}),
 		},
 		discovery
 	);
@@ -281,7 +281,7 @@ const SigninScreen = () => {
 	useEffect(() => {
 		if (response?.type === 'success') {
 			const { code } = response.params;
-			fetch("https://appauth.skelly.omg.lol/dev", { // /", {
+			fetch("https://appauth.skelly.omg.lol/", { // /dev", {
 				method: "POST",
 				headers: {
 					'Content-Type': 'application/json'
