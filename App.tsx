@@ -260,7 +260,7 @@ const SettingsScreen = () => {
 				onChangeValue={() => {
 					saveTheme(theme.key);
 				}}
-				placeholder={"default theme"}
+				placeholder={"Loading themes..."}
 			/>
 			<Button color={theme.accent1[0]} title={"Log out"} onPress={() => {setKey(undefined);saveAPIkey("")}} />
 			<StatusBar style="light" />
@@ -323,7 +323,6 @@ export default function App() {
 		loadAPIkey().then((value: object | undefined) => {
 			if (value) setKey(value);
 			loadTheme().then((value: string | undefined) => {
-				console.log(value);
 				if (value) setTheme(themes[value]);
 				if (!themes[value]) setTheme(themes.defaultTheme);
 				setLoaded(true);
