@@ -2,14 +2,14 @@
   "expo": {
     "name": "statuslog",
     "slug": "statuslog",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/statuslog-mobile-512.png",
+    "userInterfaceStyle": "dark",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/statuslog-mobile-512.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#343a40"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,14 +22,20 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/statuslog-mobile-512.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "lol.omg.skelly.statuslog"
+      "package": "lol.omg.skelly.statuslog",
+      "versionCode": 2
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/statuslog.png"
     },
-    "scheme": "lol.omg.skelly.statuslog"
+    "scheme": "lol.omg.skelly.statuslog",
+    "extra": {
+      "eas": {
+        "projectId": "7bbb6e18-ba98-435f-a00e-0a7618cac715"
+      }
+    }
   }
 }
