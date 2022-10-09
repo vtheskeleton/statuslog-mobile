@@ -2,13 +2,13 @@ export default {
 	defaultTheme: {
 		name: "Default",
 		key: "defaultTheme",
-		activeColor: '#1971c2',
+		activeColor: '#4dabf7',
 		inactiveColor: '#adb5bd',
-		accent0: ['#1971c2', '#1971c2'],  // Accent 0: Gradient (well.. not really)
+		accent0: ['#4dabf7', '#4dabf7'],  // Accent 0: Gradient (well.. not really)
 		accent1: ['#c2255c', '#c2255c'], // Accent 1: Buttons
-		accent2: ['#1971c2', '#1971c2'], // Accent 2: Text
+		accent2: ['#4dabf7', '#4dabf7'], // Accent 2: Text
 		accent3: ['#8e2347', '#8e2347'], // Accent 3: Button border gradient (Usually should be the same as accent1)
-		accent4: ['#4c6ef5', '#bac8ff', '#7950f2'] // Accent 4: Shortened gradient
+		accent4: ['#4dabf7', '#bac8ff', '#7950f2'] // Accent 4: Shortened gradient
 	},
 	trans: {
 		name: "Trans",
