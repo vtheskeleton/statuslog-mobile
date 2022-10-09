@@ -2,7 +2,7 @@
   "expo": {
     "name": "statuslog",
     "slug": "statuslog",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/statuslog-mobile-512.png",
     "userInterfaceStyle": "dark",
@@ -18,7 +18,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "lol.omg.skelly.statuslog"
     },
     "android": {
       "adaptiveIcon": {
@@ -26,7 +27,7 @@
         "backgroundColor": "#FFFFFF"
       },
       "package": "lol.omg.skelly.statuslog",
-      "versionCode": 2
+      "versionCode": 3
     },
     "web": {
       "favicon": "./assets/statuslog.png"
