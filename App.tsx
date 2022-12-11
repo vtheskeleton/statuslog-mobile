@@ -187,7 +187,7 @@ const HomeScreen = () => {
 				<Pressable onPress={() => { setRenderUI(false) }}>
 					<EmojiSelector emojiObj={emojiObj} theme={theme}></EmojiSelector>
 				</Pressable>
-				<TextInput placeholder={"Type your status here..."} value={status} placeholderTextColor={"#dee2e6"} style={{color: "#FFF", borderColor: "#FFF", borderWidth: 1, borderRadius: 5, marginBottom: 15, padding: 5}} onChangeText={(text) => { setStatus(text) }}></TextInput>
+				<TextInput multiline placeholder={"Type your status here..."} value={status} placeholderTextColor={"#dee2e6"} style={{flexShrink: 1, color: "#FFF", borderColor: "#FFF", borderWidth: 1, borderRadius: 5, marginBottom: 15, padding: 5}} onChangeText={(text) => { setStatus(text) }}></TextInput>
 
 				<Button color={theme.accent1[0]} disabled={loading || !status || !address || status.length < 0} title={"Post!"} onPress={() => {postStatus()}}></Button>
 			</View>}
